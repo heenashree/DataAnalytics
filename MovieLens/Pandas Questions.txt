@@ -1,0 +1,6 @@
+1. Movie with maximum ratings
+2. change the timestamp
+3. Seperate generes by , instead of | 
+4. seperate title and year
+5. Get rid of NaN values
+6. Find NaN values
