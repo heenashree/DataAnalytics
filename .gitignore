@@ -2,3 +2,4 @@ MovieLens/ml-20m
 .idea/
 *-checkpoint.ipynb
 .ipnyb_checkpoints
+venv/
