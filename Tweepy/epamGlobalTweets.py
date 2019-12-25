@@ -56,7 +56,7 @@ def get_all_tweets(screen_name):
 
 
     # write the csv
-    with open('%s_tweets.pickle' % screen_name, 'w') as f:
+    with open('tweets.csv', 'w') as f:
         writer = csv.writer(f)
         writer.writerow(["id", "created_at", "text"])
         writer.writerows(outtweets)
