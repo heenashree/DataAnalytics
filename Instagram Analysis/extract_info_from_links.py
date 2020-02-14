@@ -4,7 +4,7 @@ from pandas.io.json import json_normalize
 import pandas as pd, numpy as np
 from bs4 import BeautifulSoup as bs
 
-with open("epam.txt", 'r') as f:
+with open("epamglobal.txt", 'r') as f:
     links = f.readlines()
 
 result = pd.DataFrame()
